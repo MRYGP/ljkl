@@ -201,6 +201,8 @@ function New-Queue {
     $ordered = @($defs | Where-Object { $_.Id -ne 'CELL-001' } | Sort-Object @{ Expression = {
         $type = Initial-Type $_
         if ($type -eq '对标候选') { 1 } elseif ($type -eq '已踩热') { 2 } else { 3 }
+    } }, @{ Expression = {
+        if ($_.Layer -eq 'L4') { 1 } elseif ($_.Layer -eq 'L2') { 2 } elseif ($_.Layer -eq 'L1') { 3 } else { 4 }
     } }, Id)
     $lines = [System.Collections.Generic.List[string]]::new()
     $lines.Add('# 墓碑研究优先级队列')
@@ -230,7 +232,7 @@ function New-Queue {
 
 function Add-ExecutionRecord {
     $content = [System.IO.File]::ReadAllText($task, $utf8)
-    if ($content -match '## 执行记录') { return }
+    if ($content -match '(?m)^## 执行记录\s*$') { return }
     $record = @'
 
 ## 执行记录
@@ -238,7 +240,7 @@ function Add-ExecutionRecord {
 
 本轮没有奇点候选。原因不是奇点不存在，而是输入表只包含幸存公司，无法直接产出「全球空 + 邻近格已点亮」的格子；为遵守铁律二，不凭直觉强造。
 
-成员最多的踏脚石格是 CELL-005「AI 数据与工具链」（15 家），其次是 CELL-001「agent 可靠性」（14 家），两者是本轮最拥挤的区域。中国空得最干净、且美国已有成员的格子不止一个；队列优先保留 L4 体验重塑与基础设施格，后续逐格补墓碑后再判断对标价值。
+成员最多的踏脚石格是 CELL-005「AI 数据与工具链」（16 家），其次是 CELL-001「agent 可靠性」（14 家），两者是本轮最拥挤的区域。中国空得最干净、且美国已有成员的格子不止一个；其中优先研究 CELL-003「答案式搜索」、CELL-004「生成式媒体」和 CELL-026「AI 陪伴」三个 L4 格，再看 CELL-005 等基础设施格。后续逐格补墓碑后再判断对标价值。
 '@
     [System.IO.File]::AppendAllText($task, $record, $utf8)
 }
