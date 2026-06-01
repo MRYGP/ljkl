@@ -143,7 +143,7 @@ function New-Total([bool]$IncludeCells) {
             $lines.Add("| $($def.Id) | $($def.Step) × $($def.Layer) × $($def.Quadrant)（假设） | $($def.Members -join '、') | $(Region-State $def '美国') | $(Region-State $def '中国') | $(Initial-Type $def) |")
         }
     }
-    Write-Utf8 (Join-Path $archive '_分类总表.md') (($lines -join "`r`n") + "`r`n")
+    Write-Utf8 (Join-Path $archive '_分类总表.md') (($lines -join "`n") + "`n")
 }
 
 function New-Skeletons {
@@ -193,7 +193,7 @@ function New-Skeletons {
         $lines.Add('## 机制提炼（可迁移到其它格子的那条规律）')
         $lines.Add('（待墓碑补全后填）')
         $lines.Add('')
-        Write-Utf8 $path (($lines -join "`r`n") + "`r`n")
+        Write-Utf8 $path (($lines -join "`n") + "`n")
     }
 }
 
@@ -225,7 +225,7 @@ function New-Queue {
         $lines.Add("| $i | $($def.Id) | $type | $why | $question |")
         $i++
     }
-    Write-Utf8 (Join-Path $root 'tasks\墓碑研究队列.md') (($lines -join "`r`n") + "`r`n")
+    Write-Utf8 (Join-Path $root 'tasks\墓碑研究队列.md') (($lines -join "`n") + "`n")
 }
 
 function Add-ExecutionRecord {
