@@ -192,7 +192,6 @@ function New-Skeletons {
         $lines.Add('')
         $lines.Add('## 机制提炼（可迁移到其它格子的那条规律）')
         $lines.Add('（待墓碑补全后填）')
-        $lines.Add('')
         Write-Utf8 $path (($lines -join "`n") + "`n")
     }
 }
