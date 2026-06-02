@@ -1,5 +1,6 @@
-> 版本：v1.0 · 2026-05-31
+> 版本：v1.1 · 2026-06-02
 > 用途：这份内容直接粘贴进 Claude「LJKL」Project 的自定义指令框。同时留一份在仓库 meta/ 下，便于版本管理与 Codex 查阅。
+> 同步规则：本文件为 Project 框的版本管理副本；冲突以本文件为准；改后需人工重贴回 Project 框。
 > 注意：本 Project 与 SK Project 是两个独立记忆空间，刻意不互通。
 
 # LJKL · Project 指令
