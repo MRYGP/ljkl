@@ -1,0 +1,25 @@
+# TASK-008 · 墓碑候选待终判
+
+> 版本：v1.0 · 2026-06-06
+> 口径：仅列 Codex 初判为可能严格同格的候选；终判两列留空。C/X 级不用于清欠账。
+
+| 格子ID | 公司 | 国家 | 成立年 | 累计融资 | 巅峰估值/ARR | 押注踏脚石(一句话) | 死亡/衰败时间 | 死法机制(一句话) | 证据级+来源 | 初判-严格同格(Y/N) | 初判-死法档(结构性/特异/存疑) | 终判-合格(留空) | 终判-死法档(留空) | 建议归格(若非本格) |
+|---|---|---|---:|---|---|---|---|---|---|---|---|---|---|---|
+| CELL-002 | Inflection AI（Pi 原方向） | 美国 | 2022 | $1.3B+ | $4B 估值 | 以自研基础模型与推理能力支撑大规模消费级对话产品 | 2024-03 至 2024-08 | 训练与分发成本需要平台级资本和渠道，核心团队转入 Microsoft 后原消费级 Pi 方向被限流并转向企业。 | B：[Reuters/Investing](https://www.investing.com/news/stock-market-news/microsoft-agreed-to-pay-inflection-650-million-while-hiring-its-staff-information-reports-3348465)、[Axios](https://www.axios.com/2024/08/26/inflection-pi-ai-chatbot-enterprise) | Y | 结构性 |  |  |  |
+| CELL-006 | IronNet | 美国 | 2014 | $400M+ | 曾 SPAC 上市 | 云化攻击面扩张后，以持续检测与集体防御网络自动识别风险 | 2023-10 | 集体防御网络未形成足够客户密度与持续收入，最终停业并准备 Chapter 7 清算。 | B：[TechCrunch](https://techcrunch.com/2023/10/02/ironnet-founded-by-former-nsa-director-shuts-down-and-lays-off-staff/) | Y | 结构性 |  |  |  |
+| CELL-007 | Synapse | 美国 | 2014 | $50M+ | 未找到 | 以 API 银行和合规中间层把金融账户、支付与资金流转基础设施化 | 2024-04 至 2024-05 | BaaS 中间层账务与银行伙伴接口不可核清，客户迁出后破产并冻结终端用户资金。 | B：[TechCrunch](https://techcrunch.com/2024/08/22/synapses-collapse-has-frozen-nearly-160m-from-fintech-users-heres-how-it-happened/)、[AP](https://apnews.com/article/07ecb45f807a8114cac7438e7a66b512) | Y | 结构性 |  |  |  |
+| CELL-010 | Zilingo | 新加坡 | 2015 | $310M+ | 近独角兽 | 以移动 marketplace、供应链工具和金融服务数字化东南亚碎片化时尚零售网络 | 2023-01 | 新兴市场零售网络的供给、履约、金融与治理链条过长，财务治理问题触发清算。 | B：[People Matters](https://sea.peoplemattersglobal.com/news/entrepreneurship-start-ups/sg-fashion-platform-zilingo-appoints-a-liquidator-to-wind-up-firm-36737)、C：[IdeaProof](https://ideaproof.io/failure/zilingo-singapore) | Y | 存疑 |  |  |  |
+| CELL-013 | Skiff | 美国 | 2020 | $14.2M | 未披露 | 用云端文档、邮件、日历、文件和协作工作区承载知识工作流程 | 2024-02 至 2024-08 | 加密协作套件独立分发不足，被 Notion 收购后原产品套件 sunset，用户需迁移。 | B：[TechCrunch](https://techcrunch.com/2024/02/09/notion-acquires-privacy-focused-productivity-platform-skiff/)、[Ars Technica](https://arstechnica.com/gadgets/2024/02/encrypted-email-service-skiff-gets-acquired-will-shut-down-in-six-months/) | Y | 结构性 |  |  |  |
+| CELL-015 | Zenefits | 美国 | 2013 | $584M | $4.5B 估值 | 用身份、薪酬、福利与合规接口把 SMB 人力流程端到端软件化 | 2022-02 | HR 流程软件化绕不开福利经纪与合规约束，增长受监管与商业模型反噬后低价并入 TriNet。 | A：[TriNet 2022 Annual Report](https://s21.q4cdn.com/143330715/files/doc_financials/2022/ar/trinet-group-inc-2022-annual-report.pdf)、B：[TriNet 公告](https://www.trinet.com/about-us/news-press/press-releases/trinet-completes-acquisition-of-zenefits)、C：[IdeaProof](https://ideaproof.io/failure/zenefits) | Y | 存疑 |  |  |  |
+| CELL-016 | Northvolt | 瑞典 | 2016 | $6B+ equity | ~$12B 估值 | 政策约束与工程成本曲线推动电池制造商业化 | 2024-11 | 低碳电池制造的量产良率、客户集中和资金强度未跨阈值，债务压力下申请破产保护。 | B：[Reuters/Investing](https://www.investing.com/news/economy-news/swedens-northvolt-files-for-bankruptcy-in-blow-to-europes-ev-ambitions-3735832)、[Axios](https://www.axios.com/2024/11/22/ev-battery-maker-northvolt-bankrupt) | Y | 结构性 |  |  |  |
+| CELL-017 | Viridios AI（碳数据平台） | 澳大利亚 / 美国 | 未找到 | 未找到 | 未披露 | 为自愿碳市场提供项目级价格、数据与分析，提高碳信用透明度 | 2024-12 | 自愿碳市场流动性和需求不足，使项目级碳信用数据与定价平台难以维持独立服务。 | A：[S&P Global](https://www.spglobal.com/commodity-insights/en/pricing-benchmarks/our-methodology/subscriber-notes/121624-platts-discontinues-publishing-platts-viridios-carbex-carbon-credit-indices)、B：[Carbon Pulse](https://carbon-pulse.com/349053/) | Y | 结构性 |  |  |  |
+| CELL-018 | Buyk | 美国 | 2021 | $46M | 未披露 | 用移动点单、暗仓和即时履约重构高频食品零售运营 | 2022-03 | 高频即时零售的仓配密度和资金供给未能支撑单位经济，外部融资链断裂后破产停业。 | B：[Bloomberg Law](https://news.bloomberglaw.com/bankruptcy-law/russia-backed-delivery-app-buyk-files-for-bankruptcy-in-n-y)、C：[Startup Intros](https://startupintros.com/orgs/buyk) | Y | 存疑 |  |  |  |
+| CELL-020 | Airplane.dev | 美国 | 2020 | 至少 $32M Series B | 未披露 | 以 SaaS 接口和开发者平台持续编排企业内部工具与运营流程 | 2024-01 至 2024-03 | 内部工具编排平台被 Airtable 收购后原产品关闭，独立平台未守住分发与产品边界。 | C：[CB Insights](https://www.cbinsights.com/company/airplane)、C：[Benjamin Yolken](https://yolken.net/blog/end-of-airplanedev) | Y | 结构性 |  |  |  |
+| CELL-023 | Rebellion Defense | 美国 | 2019 | $150M+ | $1B 估值 | 以 AI 软件为国防任务提供快速迭代的情报、网络和任务系统 | 2023-12 | 国防软件创业需要进入采购与合同主链，核心合同失利后高估值路径急剧下坠。 | B：[Forbes](https://www.forbes.com/sites/davidjeans/2023/12/22/how-rebellion-defense-the-1-billion-military-ai-startup-hyped-by-silicon-valley-wound-up-in-a-nosedive/)、[Axios](https://www.axios.com/2021/09/15/rebellion-defense-raises-150-million-billion-valuation) | Y | 结构性 |  |  |  |
+
+## 未找到严格同格候选的格子
+
+| 格子ID | 扫描结论 | 搜索过程摘要 |
+|---|---|---|
+| CELL-004 | 未找到 B 级以上、已关停/贱卖/明确放弃原方向，且严格押注「图像、语音与视频生成质量跨过专业创作可用阈值」的公司。 | 检索英文 generative AI video/image startup shutdown、Stability AI financial trouble、Rephrase.ai acquired、中文「生成式 视频 AI 公司 倒闭/关停」；结果多为仍在经营、产品线调整或非严格踏脚石。 |
+| CELL-009 | 未找到严格押注「本土审美 IP 跨地域放大」且 B 级以上死亡/衰败的公司。 | 检索 designer toy startup shutdown、NFT IP startup decline、consumer brand IP liquidation、中文「潮玩/IP 出海 公司 倒闭」；Zilingo 更接近零售网络，Yuga/BAYC 属价格下跌和裁员，未达死亡/衰败闸。 |
